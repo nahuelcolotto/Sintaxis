@@ -18,6 +18,8 @@ int main(){
         } else if(ispunct(c))
         {
             putchar(c);
+        } else if(isblank(c)){
+            putchar(c);
         }
     }
 
